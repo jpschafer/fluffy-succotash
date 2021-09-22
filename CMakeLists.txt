@@ -15,4 +15,4 @@ FetchContent_MakeAvailable(mundy_math)
 add_executable(fluffy_succotash_app main.cpp)
 
 # Link Mundy Math to Test Executable
-target_link_libraries(fluffy_succotash_app mundy_math)
+target_link_libraries(fluffy_succotash_app mundy_math_lib)
